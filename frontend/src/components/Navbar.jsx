@@ -13,9 +13,7 @@ function Navbar() {
         <div className='flex items-center justify-between h-full'>
           <div className="flex items-center gap-8">
               <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
-                <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
                   <Logo className="w-6 h-6  text-primary"/>
-                </div>
                 <h1 className="text-lg font-bold font-mono tracking-widest">HEDWIG</h1>
               </Link>
             </div>
