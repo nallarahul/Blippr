@@ -33,7 +33,7 @@ function Navbar() {
                 <>
                   <Link to={"/profile"} className={`btn btn-sm gap-2`}>
                     <User className="size-4" />
-                    <span className="hidden sm:inline">Profile</span>
+                    <span className="hidden sm:inline">Profil</span>
                   </Link>
 
                   <Link to={"/login"} className={`btn btn-sm gap-2`} onClick={logout}>
