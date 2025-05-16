@@ -36,7 +36,7 @@ function Navbar() {
                     <span className="hidden sm:inline">Profile</span>
                   </Link>
 
-                  <Link to={"/profile"} className={`btn btn-sm gap-2`} onClick={logout}>
+                  <Link to={"/login"} className={`btn btn-sm gap-2`} onClick={logout}>
                     <LogOut className="size-4" />
                     <span className="hidden sm:inline">Logout</span>
                   </Link>
