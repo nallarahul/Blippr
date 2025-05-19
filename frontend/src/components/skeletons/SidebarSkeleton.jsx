@@ -6,7 +6,7 @@ const SidebarSkeleton = () => {
 
   return (
     <aside
-      className="h-full w-20 lg:w-72 border-r border-base-300 
+      className="h-full w-full lg:w-72 border-r border-base-300 
     flex flex-col transition-all duration-200"
     >
       {/* Header */}
@@ -16,7 +16,20 @@ const SidebarSkeleton = () => {
           <span className="font-medium hidden lg:block">Contacts</span>
         </div>
       </div>
-
+      <div className="mt-3 flex flex-col gap-2 px-2">
+          <input
+            type="text"
+            placeholder="Search contacts..."
+            className="input input-sm input-bordered w-full"
+          />
+          <label className="cursor-pointer flex items-center gap-2 text-sm pt-4">
+            <input
+              type="checkbox"
+              className="checkbox checkbox-sm"
+            />
+            Show online only
+          </label>
+        </div>
       {/* Skeleton Contacts */}
       <div className="overflow-y-auto w-full py-3">
         {skeletonContacts.map((_, idx) => (
@@ -27,7 +40,7 @@ const SidebarSkeleton = () => {
             </div>
 
             {/* User info skeleton - only visible on larger screens */}
-            <div className="hidden lg:block text-left min-w-0 flex-1">
+            <div className="text-left min-w-0 flex-1">
               <div className="skeleton h-4 w-32 mb-2" />
               <div className="skeleton h-3 w-16" />
             </div>
