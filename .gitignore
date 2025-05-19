@@ -9,10 +9,6 @@
 # Global node_modules (if any at root)
 node_modules/
 
-# Frontend build
-/frontend/build/
-build/
-dist/
 
 # Logs
 logs
