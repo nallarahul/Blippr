@@ -48,7 +48,7 @@ const Sidebar = () => {
               className="checkbox checkbox-sm"
             />
             Show online only
-            <span className="text-xs text-zinc-500 ml-auto">({onlineUsers.length - 1} online)</span>
+            <span className="text-xs text-zinc-500 ml-auto">({onlineUsers.length!==0 ? onlineUsers.length - 1 : 0} online)</span>
           </label>
         </div>
       </div>
