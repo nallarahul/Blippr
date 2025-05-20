@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nallarahul/Blippr/issues"
   },
-  "homepage": "https://github.com/nallarahul/Blippr#readme"
+  "homepage": "https://github.com/nallarahul/Blippr#readme",
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0"
+  }
 }
