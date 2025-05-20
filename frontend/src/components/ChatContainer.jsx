@@ -11,6 +11,7 @@ const ChatContainer = () => {
   const {authUser} = useAuthStore();
   const bottomRef = useRef(null);
   useEffect(() => {
+    if(!selectedUser._id) return;
     getMessages(selectedUser._id);
     subscribeToMessages();
     return() => unsubscribeFromMessages();
