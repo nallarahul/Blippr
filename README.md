@@ -27,12 +27,6 @@
 
 ---
 
-## Screenshots
-
-*Include screenshots of login page, chat UI, theme switcher, and image sharing here.*
-
----
-
 ## Getting Started
 
 ### Prerequisites
