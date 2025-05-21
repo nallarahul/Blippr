@@ -24,20 +24,3 @@
 **Authentication**: JSON Web Tokens (JWT), bcrypt  
 **Media Storage**: Cloudinary  
 **Deployment**: [Insert your hosting platform, e.g., Render, Vercel, Netlify]
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-- MongoDB Atlas or local MongoDB instance
-- Cloudinary account for media storage
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/hedwig.git
-   cd hedwig
